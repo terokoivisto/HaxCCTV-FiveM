@@ -1,7 +1,3 @@
--- regex101: ^\w+, -?\d+\.*\d*, -?\d+\.*\d*, -?\d+\.*\d*
--- Replace search (?<prop>\w+), (?<pos>-?\d+.*\d*, -?.+, -?.+), (?<rotxyz>-?.+, -?.+, -?.+), (?<rotw>-?.+),
--- Replace with template {Prop = "${prop}", Pos = vec3(${pos})},
-
 Cameras = {
     { Prop = "prop_cctv_cam_01b", Pos = vec3(5326.98047, -5179.021, 85.17436) },
     { Prop = "prop_cctv_cam_01b", Pos = vec3(-161.212143, -1159.64319, 27.9560833) },
